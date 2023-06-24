@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      align-content: center;
+      justify-content: center;
+
+    }
+
+    .card {
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: aliceblue;
+      border-radius: 20px;
+      width: 20pc;
+      height: 30pc;
+      margin-top: 100px;
+      box-shadow: 0 0 40px #bac6da, 0 0 40px #bac6da;
+    }
+
+    .context {
+      margin: 8px 8px 10px;
+    }
+
+    .card .context img {
+      position: relative;
+      object-fit: contain;
+      width: 18pc;
+      border-radius: 10px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    p {
+      text-align: center;
+      padding: 0 30px;
+      font-weight: 400;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    #text2 {
+      font-weight: 700;
+      font-family: 'Outfit', sans-serif;
+      color: #7b879d;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="context">
+      <img src="./images/image-qr-code.png" alt="">
+      <p>Improve your front-end skills by building projects</p>
+
+      <p id="text2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+      <div class="attribution">
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
